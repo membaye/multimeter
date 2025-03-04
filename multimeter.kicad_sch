@@ -1,0 +1,148 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "65ec8830-55e0-4b61-a3c1-fb55f211f4aa")
+	(paper "A4")
+	(title_block
+		(title "Multimeter Business Card")
+		(date "2025-01-20")
+		(company "Matthew Embaye")
+	)
+	(lib_symbols)
+	(sheet
+		(at 167.64 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "185ef075-a3dd-4229-bca0-021a6526a41e")
+		(property "Sheetname" "MCU and Screen"
+			(at 167.64 75.4376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mmscreenmcu.kicad_sch"
+			(at 167.64 102.2354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multimeter"
+				(path "/65ec8830-55e0-4b61-a3c1-fb55f211f4aa"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "5b43c27e-cd21-4943-a306-ba16484ea062")
+		(property "Sheetname" "Power"
+			(at 91.44 75.4376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mmpower.kicad_sch"
+			(at 91.44 102.2354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multimeter"
+				(path "/65ec8830-55e0-4b61-a3c1-fb55f211f4aa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 76.2)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "7de64a55-d768-4f1b-b950-c1255b716340")
+		(property "Sheetname" "Sense"
+			(at 129.54 75.4376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mmsense.kicad_sch"
+			(at 129.54 102.2354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "multimeter"
+				(path "/65ec8830-55e0-4b61-a3c1-fb55f211f4aa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

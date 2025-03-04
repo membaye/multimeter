@@ -1,0 +1,150 @@
+(footprint "UG-2864KSWLG1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -12.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d9bb46ae-1261-4255-86f7-d61da27e3a8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "UG-2864KSWLG1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d04fdce-8296-4244-a340-1a3000bbb04c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b71dde66-ded1-4f1e-8bdf-72fd5c8b47ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68086b1f-d3b0-4e96-b577-4ff203bf7165")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC#" "C2856808"
+		(at 0.25 25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cf3635b-0a6b-4638-a529-49d4fe93d75e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "C2856808"
+		(at 0.25 25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c042c6a-c015-4029-ad33-47305e03824d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -17.552844 -10.999494)
+		(end -17.552844 12.000506)
+		(stroke
+			(width 0.2)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "70e64b30-ba2c-4955-a409-7764d96aecfa")
+	)
+	(fp_line
+		(start -17.552844 12.000506)
+		(end 18.047156 12.000506)
+		(stroke
+			(width 0.2)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "a486833a-08d4-434b-9cb7-bc24910ce78b")
+	)
+	(fp_line
+		(start 18.047156 -10.999494)
+		(end -17.552844 -10.999494)
+		(stroke
+			(width 0.2)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "a0df60d2-59c3-4179-b41b-5f431eb911e2")
+	)
+	(fp_line
+		(start 18.047156 12.050506)
+		(end 18.047156 -10.949494)
+		(stroke
+			(width 0.2)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "c40e1c9f-ddb2-4897-8cdb-c89c2f2e0ec0")
+	)
+	(fp_text user "OLED"
+		(at -2.752844 0.850506 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "09012587-ef50-409c-9e3d-235745dc65e7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "31fc5315-112a-40e5-a8cf-aae66b20a84f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

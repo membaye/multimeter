@@ -1,0 +1,191 @@
+(footprint "HS HS91L02W2C01_OLED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.827 0)
+		(layer "F.SilkS")
+		(uuid "42c0514c-7945-4fd7-80f3-3e1b8ca3a72d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HS HS91L02W2C01_OLED"
+		(at 0 6.827 0)
+		(layer "F.Fab")
+		(uuid "e4d52307-7a37-4ce8-8f6e-4406403d0150")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -17.5 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a001125-edf5-44dc-9716-a7a5a012a826")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -17.5 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a8c4a7d-24c4-455f-bb5c-22046787e341")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -19 -6)
+		(end 19 -6)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76b6ada1-c84d-4a93-b451-ee10299f6fdb")
+	)
+	(fp_line
+		(start -19 6)
+		(end -19 -6)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc68658b-fd54-43cc-806a-dcd4110759f7")
+	)
+	(fp_line
+		(start 19 -6)
+		(end 19 6)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c58f4b2e-c1d8-456b-90c3-1907cefbdcea")
+	)
+	(fp_line
+		(start 19 6)
+		(end -19 6)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b17ecc01-b876-4956-b8b0-72df6e20ecee")
+	)
+	(fp_rect
+		(start -19.5 -6.5)
+		(end 19.5 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8b1bbe1a-b35d-4743-b9a9-b6109b2ef116")
+	)
+	(fp_line
+		(start -19 -6)
+		(end -19 6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "8ebcf2ba-21ba-4646-91b2-595efda0586f")
+	)
+	(fp_line
+		(start -19 6)
+		(end 19 6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "febf7f61-326d-423b-a696-0cab525e889f")
+	)
+	(fp_line
+		(start 19 -6)
+		(end -19 -6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "443dfae2-a1b8-4740-bcf8-d442c626658d")
+	)
+	(fp_line
+		(start 19 6)
+		(end 19 -6)
+		(stroke
+			(width 0.051)
+			(type default)
+		)
+		(layer "User.2")
+		(uuid "73c40b17-4b42-42bf-8e37-344196512be2")
+	)
+	(pad "1" thru_hole circle
+		(at -17.5 3.81)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "75775444-22ac-40d4-a7b9-a1fe548b8973")
+	)
+	(pad "2" thru_hole circle
+		(at -17.5 1.27)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "870db57d-7d56-4d72-8af3-3e620cac4f83")
+	)
+	(pad "3" thru_hole circle
+		(at -17.5 -1.27)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "1b6d5c92-d84f-4193-92e4-fe9c6811bd28")
+	)
+	(pad "4" thru_hole circle
+		(at -17.5 -3.81)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "06ff4f89-b4af-41e9-87e3-4b9dd97b9ba3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/models.3dshapes/HS_HS91L02W2C01_OLED.3dshapes/OLED-TH_L38.0-W12.0_HS91L02W2C01.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
